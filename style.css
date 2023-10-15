@@ -32,7 +32,7 @@ body{
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-left: -200px;
+    margin-left: -300px;
     transition: .6s;
     z-index: 1;
 }
@@ -53,12 +53,12 @@ button{
 #btns{
 
     background: rgb(255, 51, 51);
-    width: 200px;
+    width: 220px;
     height: auto;
     /* display: none; */
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     transition: .4s;
     margin-left: -200px;
 }
