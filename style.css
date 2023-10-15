@@ -70,6 +70,7 @@ button{
 #btnMenu{
 
     margin-top: 15px;
+    position: right;
 }
 @media (max-width: 800px){
 
