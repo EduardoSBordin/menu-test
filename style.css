@@ -1,6 +1,6 @@
 body{
 
-    background-color: brown;
+    background-color: rgb(27, 27, 27);
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -8,7 +8,7 @@ body{
 }
 #menu{
 
-    background: rgb(145, 0, 0);
+    background: rgb(48, 48, 48);
     width: 100%;
     height: 80px;
 }
@@ -45,22 +45,35 @@ button{
     text-align: center;
     margin: 10px;
     padding: 3px;
-    color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background: rgba(255, 255, 255, 0.411);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+
+    background: rgb(33, 33, 33);
+    transform: scale(1.1);
+    border-radius: 50px;
 }
 .btnMenu2{
     width: 150px;
 }
 #btns{
 
-    background: rgb(255, 51, 51);
-    width: 250px;
+    background: rgb(56, 56, 56);
+    width: 200px;
     height: auto;
     /* display: none; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     transition: .4s;
     margin-left: -300px;
+    margin-top: 20px;
 }
 #btns.activeMenu{
 
